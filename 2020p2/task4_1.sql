@@ -1,1 +1,7 @@
-
+CREATE TABLE `People` (
+	`PersonID`	INTEGER PRIMARY KEY AUTOINCREMENT,
+	`FullName`	TEXT NOT NULL,
+	`DateofBirth`	TEXT NOT NULL,
+	`ScreenName`	TEXT NOT NULL,
+	`IsAdult`	INTEGER NOT NULL
+);
