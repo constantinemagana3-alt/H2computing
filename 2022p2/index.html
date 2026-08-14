@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+	<title>Book Log</title>
+	<body>
+		<h1>Books Not Returned</h1>
+		<form action = "{{ url_for('returned')}}" method = "POST">
+			<table>
+			<tr>
+				<td>Member Number:</td>
+				<td><input type="text" name="memberNumber"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+			</table>
+		</form>
+	</body>
+</html>
+		
+		
+	
+	
